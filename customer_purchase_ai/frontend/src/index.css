@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased tracking-wide bg-gradient-to-br from-gray-900 to-black text-gray-100;
+  }
+}

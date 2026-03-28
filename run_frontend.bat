@@ -1,0 +1,6 @@
+@echo off
+cd customer_purchase_ai\frontend
+echo Installing Node modules...
+cmd /c npm install
+echo Starting Vite Dev Server...
+cmd /c npm run dev
